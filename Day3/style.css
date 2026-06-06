@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.navbar {
+    background: #111827;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero h3 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.profile-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #38bdf8;
+    box-shadow: 0 0 30px #38bdf8;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.card-custom {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill-box {
+    background: #1e293b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+    background: #38bdf8;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
+}
+
+.btn-primary {
+    background: #38bdf8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0ea5e9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+}
+
+a {
+    text-decoration: none;
+}
